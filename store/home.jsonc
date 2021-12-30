@@ -1,0 +1,272 @@
+/*  --- Demo usage of button-icon-creator app
+{
+  "store.home": {
+    "blocks": [
+      "button-icon-creator#IconEchidna",
+      "button-icon-creator#IconSocial",
+      "button-icon-creator#IconFacebookSquare",
+      "button-icon-creator#IconFacebookRounded",
+      "button-icon-creator#IconWhatsapp",
+      "button-icon-creator#IconAmazonpay",
+      "button-icon-creator#IconPaypal",
+      "button-icon-creator#IconGpay",
+      "button-icon-creator#IconApplepay",
+      "button-icon-creator#IconYoutube",
+      "button-icon-creator#IconTwitter",
+      "button-icon-creator#IconInstagram",
+      "button-icon-creator#IconRain",
+      "button-icon-creator#IconMap",
+      "button-icon-creator#IconCurrentLocation",
+      "button-icon-creator#IconArrowBack",
+      "button-icon-creator#IconCart",
+      "button-icon-creator#IconSearch",
+      "button-icon-creator#IconEyesight",
+      "button-icon-creator#IconCaret"
+    ],
+    "parent": {
+      "challenge": "challenge.trade-policy-condition"
+    }
+  },
+  "challenge.trade-policy-condition": {
+    "props": {
+      "redirectPath": "/login",
+      "defaultContentVisibility": "hidden"
+    }
+  },
+
+  "button-icon-creator#IconEchidna": {
+    "props": {
+      "id": "bnd-echidna",
+      "link": "https://echidna.co/",
+      "size": "60",
+      "viewBox": "0, 0, 400,180.5383022774327",
+      "isActive": true,
+      "activeClassName": "blue",
+      "mutedClassName": "gray",
+      "blockClass": "button-icon"
+    }
+  },
+  "button-icon-creator#IconFacebookSquare": {
+    "props": {
+      "link":"https://www.facebook.com/",
+      "id": "bnd-facebook--square",
+      "size": "60",
+      "viewBox": "0 -94.4 302.939 302.939",
+      "isActive": true,
+      "activeClassName": "blue",
+      "mutedClassName": "gray",
+      "blockClass": "button-icon"
+    }
+  },
+  "button-icon-creator#IconFacebookRounded": {
+    "props": {
+      "link":"https://www.facebook.com/",
+      "id": "bnd-facebook--rounded",
+      "size": "40",
+      "viewBox": "0 0 20 20",
+      "isActive": true,
+      "activeClassName": "blue",
+      "mutedClassName": "gray",
+      "blockClass": "button-icon"
+    }
+  },
+  "button-icon-creator#IconWhatsapp": {
+    "props": {
+      "link":"https://www.whatsapp.com/",
+      "id": "bnd-whatsapp",
+      "size": "40",
+      "viewBox": "0 0 512 512",
+      "isActive": true,
+      "activeClassName": "blue",
+      "mutedClassName": "gray",
+      "blockClass": "button-icon"
+    }
+  },
+  "button-icon-creator#IconAmazonpay": {
+    "props": {
+      "link":"https://www.amazon.in/amazonpay/home",
+      "id": "bnd-amazonpay",
+      "size": "40",
+      "viewBox": "0 0 291.319 291.319",
+      "isActive": true,
+      "activeClassName": "blue",
+      "mutedClassName": "gray",
+      "blockClass": "button-icon"
+    }
+  },
+  "button-icon-creator#IconPaypal": {
+    "props": {
+      "link":"https://www.paypal.com/",
+      "id": "bnd-paypal",
+      "size": "40",
+      "viewBox": "0 -140 780 780",
+      "isActive": true,
+      "activeClassName": "blue",
+      "mutedClassName": "gray",
+      "blockClass": "button-icon"
+    }
+  },
+  "button-icon-creator#IconGpay": {
+    "props": {
+      "link":"https://pay.google.com/",
+      "id": "bnd-gpay",
+      "size": "40",
+      "viewBox": "0 0 2065.9 2064.8",
+      "isActive": true,
+      "activeClassName": "blue",
+      "mutedClassName": "gray",
+      "blockClass": "button-icon"
+    }
+  },
+  "button-icon-creator#IconApplepay": {
+    "props": {
+      "link":"https://www.apple.com/apple-pay/",
+      "id": "bnd-applepay",
+      "size": "40",
+      "viewBox": "0 -150.5 512 512",
+      "isActive": true,
+      "activeClassName": "blue",
+      "mutedClassName": "gray",
+      "blockClass": "button-icon"
+    }
+  },
+  "button-icon-creator#IconYoutube": {
+    "props": {
+      "link":"https://www.youtube.com/",
+      "id": "bnd-youtube",
+      "size": "40",
+      "viewBox": "0 0 20 20",
+      "isActive": true,
+      "activeClassName": "red",
+      "mutedClassName": "gray",
+      "blockClass": "button-icon"
+    }
+  },
+  "button-icon-creator#IconTwitter": {
+    "props": {
+      "link":"https://twitter.com/",
+      "id": "bnd-twitter",
+      "size": "30",
+      "viewBox": "0 0 20 20",
+      "isActive": true,
+      "activeClassName": "blue",
+      "mutedClassName": "gray",
+      "blockClass": "button-icon"
+    }
+  },
+  "button-icon-creator#IconInstagram": {
+    "props": {
+      "link":"https://www.instagram.com/",
+      "id": "bnd-instagram",
+      "size": "30",
+      "viewBox": "0 0 20 20",
+      "isActive": true,
+      "activeClassName": "Pink",
+      "mutedClassName": "gray",
+      "blockClass": "button-icon"
+    }
+  },
+  "button-icon-creator#IconCurrentLocation": {
+    "props": {
+      "link":"https://developers.vtex.com/vtex-developer-docs/docs/vtex-store-icons",
+      "id": "nav-currlocation",
+      "size": "30",
+      "viewBox": "0 0 20 20",
+      "isActive": true,
+      "activeClassName": "blue",
+      "mutedClassName": "gray",
+      "blockClass": "button-icon"
+    }
+  },
+  "button-icon-creator#IconRain": {
+    "props": {
+      "link":"https://developers.vtex.com/vtex-developer-docs/docs/vtex-store-icons",
+      "id": "nav-rain",
+      "size": "50",
+      "viewBox": "0 0 20 20",
+      "isActive": true,
+      "activeClassName": "blue",
+      "mutedClassName": "gray",
+      "blockClass": "button-icon"
+    }
+  },
+  "button-icon-creator#IconMap": {
+    "props": {
+      "link":"https://developers.vtex.com/vtex-developer-docs/docs/vtex-store-icons",
+      "id": "nav-map",
+      "size": "50",
+      "viewBox": "0 0 20 20",
+      "isActive": true,
+      "activeClassName": "green",
+      "mutedClassName": "gray",
+      "blockClass": "button-icon"
+    }
+  },
+  "button-icon-creator#IconArrowBack": {
+    "props": {
+      "link":"https://developers.vtex.com/vtex-developer-docs/docs/vtex-store-icons",
+      "id": "hpa-arrow-back",
+      "size": "30",
+      "isActive": true,
+      "activeClassName": "red",
+      "mutedClassName": "gray",
+      "blockClass": "button-icon"
+    }
+  },
+  "button-icon-creator#IconCart": {
+    "props": {
+      "link":"https://developers.vtex.com/vtex-developer-docs/docs/vtex-store-icons",
+      "id": "hpa-cart",
+      "size": "30",
+      "isActive": true,
+      "activeClassName": "blue",
+      "mutedClassName": "gray",
+      "blockClass": "button-icon"
+    }
+  },
+  "button-icon-creator#IconSearch": {
+    "props": {
+      "link":"https://developers.vtex.com/vtex-developer-docs/docs/vtex-store-icons",
+      "id": "hpa-search",
+      "size": "60",
+      "isActive": true,
+      "activeClassName": "green",
+      "mutedClassName": "gray",
+      "blockClass": "button-icon"
+    }
+  },
+  "button-icon-creator#IconEyesight": {
+    "props": {
+      "link":"https://developers.vtex.com/vtex-developer-docs/docs/vtex-store-icons",
+      "id": "mpa-eyesight--outline--on",
+      "size": "40",
+      "isActive": true,
+      "activeClassName": "yellow",
+      "mutedClassName": "gray",
+      "blockClass": "button-icon"
+    }
+  },
+  "button-icon-creator#IconCaret": {
+    "props": {
+      "link":"https://developers.vtex.com/vtex-developer-docs/docs/vtex-store-icons",
+      "id": "nav-caret--down",
+      "size": "30",
+      "isActive": false,
+      "activeClassName": "blue",
+      "mutedClassName": "gray",
+      "blockClass": "button-icon"
+    }
+  },
+  "button-icon-creator#IconSocial": {
+    "props": {
+      "link":"https://vtex.com/us-en/",
+      "id": "bnd-logo",
+      "size": "30",
+      "isActive": true,
+      "activeClassName": "red",
+      "mutedClassName": "gray",
+      "blockClass": "button-icon"
+    }
+  }
+}
+*/

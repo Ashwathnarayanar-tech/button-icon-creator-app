@@ -1,0 +1,28 @@
+{
+  "vendor": "echidna",
+  "name": "button-icon-creator",
+  "version": "0.0.1",
+  "title": "button-icon-creator",
+  "description": "button-icon-creator",
+  "builders": {
+    "styles": "2.x",
+    "store": "0.x",
+    "sitemap": "0.x",
+    "docs": "0.x",
+    "react": "3.x"
+  },
+  "dependencies": {
+    "vtex.styleguide": "9.x",
+    "vtex.store-icons": "0.x"
+  },
+  "registries": [
+    "smartcheckout"
+  ],
+  "policies": [],
+  "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema",
+  "support": {
+    "url": "https://echidna.co/",
+    "email": "mansi.vd@echidnainc.com",
+    "phone": "+919428417545"
+  }
+}
